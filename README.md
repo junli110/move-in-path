@@ -16,6 +16,6 @@ Let your div move in SVG path
 	   obj.run(function(x,y){
 		   $(".plot").css({"left":x,"top":y});
 	   })
-
+  
 </script> 
 
