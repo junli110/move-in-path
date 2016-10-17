@@ -8,7 +8,7 @@ Let your div move in SVG path
 
 </svg>
 <div class="plot"></div>
-<script type="text/JavaScript"> 
+
 	   var path="M269,194c124,84,0,204,0,204s172-75,124-120s250-130,49-162s-123,0-123,0s-86-139-78-32s-90,122-90,122Z"
        var obj=new MoveInPath(path);
 	   obj.dur=3;
@@ -17,5 +17,5 @@ Let your div move in SVG path
 		   $(".plot").css({"left":x,"top":y});
 	   })
   
-</script> 
+
 
